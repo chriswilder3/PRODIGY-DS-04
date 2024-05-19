@@ -19,4 +19,4 @@ The project starts with loading necessary libraries and importing the dataset us
 import pandas as pd
 
 # Loading the dataset
-data = pd.read_csv('/kaggle/input/twitter-sentiment-dataset/train.csv')
+data = pd.read_csv('bank-full.csv')
