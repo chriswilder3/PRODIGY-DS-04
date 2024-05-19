@@ -19,4 +19,9 @@ The project starts with loading necessary libraries and importing the dataset us
 import pandas as pd
 
 # Loading the dataset
-data = pd.read_csv('bank-full.csv')
+
+train = pd.read_csv('twitter_training.csv', names = cols)
+valid = pd.read_csv('twitter_validation.csv', names = cols)
+
+```
+
